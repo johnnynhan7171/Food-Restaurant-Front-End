@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- header section starts -->
+  <header class="header">
+    <section class="flex">
+      <a href="home.html" class="logo">Yum-Yum</a>
+      <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="orders.html">Orders</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="icons">
+        <a href="search.html"><i class="fas fa-search"></i></a>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+        <div id="user-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+      <div class="profile">
+        <p class="name">Luong Huu Nhan</p>
+        <div class="flex">
+          <a href="profile.html" class="btn">Profile</a>
+          <a href="#" class="delete-btn">Logout</a>
+        </div>
+        <p class="account"><a href="login.html">Login</a> or <a href="register.html">Register</a></p>
+      </div>
+    </section>
+  </header>
+  <!-- header section ends -->
+  <!-- search form section starts -->
+  <section class="search-form">
+    <form action="" method="post">
+      <input type="text" name="search_box" id="" placeholder="Search Here..." class="box">
+      <button type="submit" name="search_btn" class="fas fa-search"></button>
+    </form>
+  </section>
+  <!-- search form section ends -->
+  <section class="product" style="min-height: 100vh; padding-top: 0;"></section>
+  <!-- footer section starts -->
+  <footer class="footer">
+    <section class="grid">
+      <div class="box">
+        <img src="images/email-icon.png" alt="">
+        <h3>Our Email:</h3>
+        <a href="mail to: davidnhan93@gmail.com">davidnhan93@gmail.com</a>
+        <a href="mail to: johnnynhan717@gmail.com">johnnynhan717@gmail.com</a>
+      </div>
+      <div class="box">
+        <img src="images/clock-icon.png" alt="">
+        <h3>Opening Hours</h3>
+        <p>00:00am to 11:30pm</p>
+      </div>
+      <div class="box">
+        <img src="images/map-icon.png" alt="">
+        <h3>Our Address</h3>
+        <a href="#">Ho Chi Minh City, Viet Nam.</a>
+      </div>
+      <div class="box">
+        <img src="images/phone-icon.png" alt="">
+        <h3>Our Number</h3>
+        <a href="tel:1234567890">123-456-7890</a>
+        <a href="tel: 1112223333">111-222-3333</a>
+      </div>
+    </section>
+    <div class="credit">Created By <span>Luong Huu Nhan</span> | All Rights Reserved!</div>
+  </footer>
+  <!-- footer section ends -->
+  <div class="loader">
+    <img src="images/loader.gif" alt="">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
